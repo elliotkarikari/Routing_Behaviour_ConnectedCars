@@ -25,7 +25,7 @@ L = Σ𝑑𝑖𝑠𝑡(𝑟𝑗− 1,𝑛𝑗=2 𝑟𝑗) (1)
 
 CAD = Σ|𝜃𝑗−1−𝜃𝑗|𝑛𝑗=2 (3)
 
-**Sinuosity** – The sinuosity S measures the trajectory efficiency, compared to a straight line. It is the ratio of the route length L to the straight-line distance between origin (r1) and destination (rn), as defined in Equation 4.
+**Sinuosity: Evaluating Route Efficiency** – The sinuosity S measures the trajectory efficiency, compared to a straight line. It is the ratio of the observed route length L to the straight-line distance between origin (r1) and destination (rn) points, as defined in Equation 4.
 
 𝑆 = 𝐿𝑑𝑖𝑠𝑡(𝑟1, 𝑟𝑛) (4)
 
