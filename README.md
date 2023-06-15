@@ -13,11 +13,11 @@ We explored routing behaviour through the generation of descriptive statistics. 
 
 L = Σ𝑑𝑖𝑠𝑡(𝑟𝑗− 1,𝑛𝑗=2 𝑟𝑗) (1)
 
-**Travel Time** – This statistic measures the duration of a journey (D). This is computed in Equation 2 as the difference between the timestamps of the first (t1) and last (tn) GPS recordings for a journey.
+**Travel Time: Measuring the Duration of Journeys** – The travel time metric (D) quantifies the duration of a journey. It was computed by taking the difference between the timestamps of the first (t1) and last (tn) GPS recordings for a given journey. The equation (2) shows this calculation:
 
 𝐷 = 𝑡𝑛 − 𝑡1 (2)
 
-**Stop Time** - This statistic measures the total stop time within a journey. GPS points which were stationary (i.e. within a spatial radius of 200 m) for a minute or more were identified as stops (see Table 1 of Hariharan and Toyama, 2004 for a definition). Places of interest, identified by long stop times, are considered pull factors in analysing route choice. Shorter stops resultant from traffic are also identified.
+**Stop Time: Identifying Stops and Analyzing Pull Factors** - The stop time metric helps us understand the total amount of time spent at stationary GPS points within a journey. Stops were identified when the car remained within a spatial radius of 200 meters for a minute or longer. These stops can indicate places of interest, acting as pull factors in analyzing route choice. Additionally, shorter stops resulting from traffic conditions were also identified and accounted for.
 
 **Number of Turns** - The number of turns along a journey is determined by the bearing change between two consecutive trajectory points. Bearing changes greater than 50° are considered as turns (Douglas and Peucker, 1973). This statistic helps to understand the patterns regarding routes taken, i.e. are people more likely to go along a route without many turns or not.
 
