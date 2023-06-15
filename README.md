@@ -9,7 +9,7 @@ In this project, we analyse GPS data from over 1 million journeys by 50,000 conn
 
 We explored routing behaviour through the generation of descriptive statistics. No preprocessing was required as raw data is highly accurate. Scikit mobility, a Python library for human mobility analysis, was used to generate travel distance and stop time metrics (Pappalardo et al., 2019). The following statistics have been computed:
 
-**Travel Distance: Revealing the Length of Journeys** - This statistic measures the length of a journey (L). This is calculated in Equation 1 as the sum of the distances between consecutive time-ordered points of the journey, where n is the number of points, and rj-1 and rj are consecutive points.
+**Travel Distance: Revealing the Length of Journeys** - The travel distance metric (L) captures the length of a journey. We computed it by summing the distances between consecutive time-ordered GPS points, where the number of points is denoted by 'n.' The equation (1) represents the calculation:
 
 L = Σ𝑑𝑖𝑠𝑡(𝑟𝑗− 1,𝑛𝑗=2 𝑟𝑗) (1)
 
