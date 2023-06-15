@@ -19,9 +19,9 @@ L = Σ𝑑𝑖𝑠𝑡(𝑟𝑗− 1,𝑛𝑗=2 𝑟𝑗) (1)
 
 **Stop Time: Identifying Stops and Analyzing Pull Factors** - The stop time metric helps us understand the total amount of time spent at stationary GPS points within a journey. Stops were identified when the car remained within a spatial radius of 200 meters for a minute or longer. These stops can indicate places of interest, acting as pull factors in analyzing route choice. Additionally, shorter stops resulting from traffic conditions were also identified and accounted for.
 
-**Number of Turns** - The number of turns along a journey is determined by the bearing change between two consecutive trajectory points. Bearing changes greater than 50° are considered as turns (Douglas and Peucker, 1973). This statistic helps to understand the patterns regarding routes taken, i.e. are people more likely to go along a route without many turns or not.
+**Number of Turns: Shedding Light on Route Patterns** - The number of turns along a journey provides insights into the patterns and preferences regarding the routes taken. We determined the number of turns by analyzing the bearing change between consecutive trajectory points. Turns were considered when the bearing change exceeded 50°, as defined by Douglas and Peucker (1973).
 
-**Cumulative Angular Deviation** – The CAD measures the angularity of the trajectory. This is defined in Equation 3 as the sum of the absolute differences in bearing angle between consecutive time-ordered points of the journey, where n is the number of points, and θj-1 and θj are bearings of consecutive points.
+**Cumulative Angular Deviation: Measuring Trajectory Angularity** – The cumulative angular deviation (CAD) metric quantifies the angularity of a trajectory. It is computed by summing the absolute differences in bearing angles between consecutive time-ordered points of a journey. The equation (3) shows this calculation:
 
 CAD = Σ|𝜃𝑗−1−𝜃𝑗|𝑛𝑗=2 (3)
 
