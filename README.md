@@ -30,13 +30,14 @@ CAD = Σ|𝜃𝑗−1−𝜃𝑗|𝑛𝑗=2 (3)
 𝑆 = 𝐿𝑑𝑖𝑠𝑡(𝑟1, 𝑟𝑛) (4)
 
 # Code
+To extract meaningful insights, we developed comprehensive code using **Python**.
+
 The uploaded version of the code used to generate the output is not the final version and may contain errors and incomplete steps. This has been uploaded to display my coding ability.
 
 🏋 Generating Statistical Measures.ipynb - Once I had the data, I first tried to visualise it. I used datashader to visualise all 400 million points and used osmnx to visualise individual journeys (Not in code). 
-
 This notebook shows the code used to generate statistical measures used to explore routing behaviour.
 
-🏊‍♂️ Statistical Analysis, Results & Visualisation.ipynb - This notebook contain exploratory data analysis of statistical measures over time. It also shows how variables are related to each other. 
+🏊‍♂️ Statistical Analysis, Results & Visualisation.ipynb - This notebook contains the statistical analysis, explored results, and employed data visualization techniques. It also shows the relationships among variables and provides exploratory data analysis of the statistical measures over time
 
 🌍 Geographic Variation.ipynb - This notebook show statistical variation over space. It also contains the geographic variation of clusters identified.  
 
