@@ -34,14 +34,14 @@ To extract meaningful insights, we developed comprehensive code using **Python**
 
 The uploaded version of the code used to generate the output is not the final version and may contain errors and incomplete steps. This has been uploaded to display my coding ability.
 
-🏋 Generating Statistical Measures.ipynb - Once I had the data, I first tried to visualise it. I used datashader to visualise all 400 million points and used osmnx to visualise individual journeys (Not in code). 
+🏋 **Generating Statistical Measures.ipynb** - Once I had the data, I first tried to visualise it. I used datashader to visualise all 400 million points and used osmnx to visualise individual journeys (Not in code). 
 This notebook shows the code used to generate statistical measures used to explore routing behaviour.
 
-🏊‍♂️ Statistical Analysis, Results & Visualisation.ipynb - This notebook contains the statistical analysis, explored results, and employed data visualization techniques. It also shows the relationships among variables and provides exploratory data analysis of the statistical measures over time
+🏊‍♂️ **Statistical Analysis, Results & Visualisation.ipynb** - This notebook contains the statistical analysis, explored results, and employed data visualization techniques. It also shows the relationships among variables and provides exploratory data analysis of the statistical measures over time
 
-🌍 Geographic Variation.ipynb - This notebook shows the spatial distribution of statistical variations and includes geographic variation of identified clusters. 
+🌍 **Geographic Variation.ipynb** - This notebook shows the spatial distribution of statistical variations and includes geographic variation of identified clusters. 
 
-🥤 Clustering.ipynb - This notebook identifies distinct types of journeys made by drivers, revealing valuable insights into their behavior patterns.
+🥤 **Clustering.ipynb** - This notebook identifies distinct types of journeys made by drivers, revealing valuable insights into their behavior patterns.
 
 # Timeline - 6 month Project 
 Work was done over a period of **4 months** as data was made roughly available 2 months after the start of the project. 
