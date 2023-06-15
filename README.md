@@ -39,6 +39,10 @@ This notebook shows the code used to generate statistical measures used to explo
 
 🏊‍♂️ Statistical Analysis, Results & Visualisation.ipynb - This notebook contains the statistical analysis, explored results, and employed data visualization techniques. It also shows the relationships among variables and provides exploratory data analysis of the statistical measures over time
 
-🌍 Geographic Variation.ipynb - This notebook show statistical variation over space. It also contains the geographic variation of clusters identified.  
+🌍 Geographic Variation.ipynb - This notebook shows the spatial distribution of statistical variations and includes geographic variation of identified clusters. 
 
-🥤 Clustering.ipynb - Contains code used to identify types of journeys made.
+🥤 Clustering.ipynb - This notebook identifies distinct types of journeys made by drivers, revealing valuable insights into their behavior patterns.
+
+# Project Timeline
+## 6 month Project
+Work was done over a period of **4 months** as data was made available 2 months after the start of the project. 
