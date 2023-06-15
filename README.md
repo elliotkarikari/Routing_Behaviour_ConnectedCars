@@ -43,6 +43,5 @@ This notebook shows the code used to generate statistical measures used to explo
 
 🥤 Clustering.ipynb - This notebook identifies distinct types of journeys made by drivers, revealing valuable insights into their behavior patterns.
 
-# Project Timeline
-## 6 month Project
+# Timeline - 6 month Project 
 Work was done over a period of **4 months** as data was made available 2 months after the start of the project. 
