@@ -46,5 +46,7 @@ This notebook shows the code used to generate statistical measures used to explo
 # Timeline - 6 month Project 
 Work was done over a period of **4 months** as data was made roughly available 2 months after the start of the project. 
 
-# Publication
+# Publications
 **Analysing Connected Car Data to Understand Vehicular Route Choice** - Karikari, Elliot; Prédhumeau, Manon; Baudains, Peter; Manley, Ed - https://zenodo.org/record/7834128#.ZEWVFKTTU0F
+
+**National-Scale Spatiotemporal Variation in Driver Navigation Behaviour and Route Choice (Short Paper)** - Karikari, Elliot; Prédhumeau, Manon; Baudains, Peter; Manley, Ed - https://drops.dagstuhl.de/opus/volltexte/2023/18940/
